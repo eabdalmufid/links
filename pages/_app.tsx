@@ -19,6 +19,7 @@ import '@fontsource/sen/700.css';
 function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<>
+			<Script strategy="lazyOnload" src={`https://cloud.umami.is/script.js`} data-website-id={process.env.NEXT_PUBLIC_UMAMI_ANALYTICS} />
 			<Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
 
 			<Script id="google-analytics" strategy="lazyOnload">
