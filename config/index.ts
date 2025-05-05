@@ -8,48 +8,41 @@ export const cover: string | false = '/profile/cover.jpg';
 
 // footer page
 export const footer: footerProps = {
-	name: 'Dika Greyrat',
-	url: 'https://dikaardnt.com',
+	name: 'Abdul Mufid',
+	url: 'https://affidev.com',
 };
 
 export const config: configProps = {
-	name: 'Dika Greyrat',
-	bio: 'Just People who love a Anime and Manga',
-	tags: ['💻 Coder', '📺 Anime', '📚 Manga', '🎵 Music'],
+	name: 'Abdul Mufid',
+	bio: 'Just People',
+	tags: ['💻 Coder', '🎵 Music'],
 	socials: {
-		twitter: 'https://twitter.com/DikaArdnt',
-		instagram: 'https://www.instagram.com/dika.greyrat',
-		facebook: 'https://www.facebook.com/DikaArdnt',
-		youtube: 'https://www.youtube.com/@dika.ardianta',
-		github: 'https://github.com/DikaArdnt',
-		discord: 'https://discord.com/users/808923620792991754',
-		telegram: 'https://t.me/DikaArdnt',
-		whatsapp: 'https://wa.me/6288292024190',
+		twitter: 'https://twitter.com/eabdalmufid',
+		instagram: 'https://www.instagram.com/eabdlmufid',
+		facebook: 'https://www.facebook.com/eabdalmufid',
+		youtube: 'https://www.youtube.com/@eabdalmufid',
+		github: 'https://github.com/eabdalmufid',
+		telegram: 'https://t.me/eabdalmufid',
+		whatsapp: 'https://wa.me/6289509952003',
 	},
 	links: [
 		{
 			emoji: '🌐',
-			title: 'Personal Website',
+			title: 'Website Personal',
 			description: 'Explore my biography, projects, and more',
-			url: 'https://dikaardnt.com',
-		},
-		{
-			emoji: '🤖',
-			title: 'WhatsApp Bot Hosting',
-			description: 'WhatsApp Bot Hosting, create bots with just one click without worrying about server costs or code issues',
-			url: 'https://hisoka.net',
+			url: 'https://affidev.com',
 		},
 		{
 			emoji: '🔗',
-			title: 'Free Short URL',
-			description: 'A simple URL shortener service with a simple interface and a variety of features',
-			url: 'https://kua.lat',
+			title: 'Undangan Digital',
+			description: 'Create and share elegant digital invitations with RSVP, maps, countdowns, and more',
+			url: 'https://invite.affidev.com',
 		},
 		{
-			emoji: '🅱️',
-			title: 'Personal Bio Page',
-			description: 'A simple bio page with a variety of features',
-			url: 'https://greyrat.me',
+			emoji: '⚡',
+			title: 'Agen Pulsa & PPOB',
+			description: 'Top up credit, data packages, electricity tokens, and other bill payments easily and quickly.',
+			url: 'https://store.affidev.com',
 		},
 	],
 };
